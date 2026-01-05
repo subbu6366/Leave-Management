@@ -4,8 +4,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-data = pd.read_csv(r“C:\Users\Documents\Desktop\App
- Development\LEAVEMANAGEMENT.csv”)
+data = pd.read_csv(r#“ Enter your csv file .csv”)
 #1.3 Bargraph of Total Allowance
 plt.figure(figsize=(15,6))
 plt.bar(data[“Employee Names”],data[“Total Allowance”])
